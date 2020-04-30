@@ -7,4 +7,5 @@ class Dummy {
   }
 }
 
+// Changing to this `export default` doesn't fix the TypeScript test
 module.exports = new Dummy();
